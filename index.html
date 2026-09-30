@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>David RJ — Photographer & Videographer, London</title>
+<meta name="description" content="London-based content creator: wedding, product, automotive, corporate, portrait, fitness, architecture and aerial photography and videography.">
+<meta property="og:title" content="David RJ — Photographer & Videographer, London">
+<meta property="og:image" content="https://static.wixstatic.com/media/329158_394e0dca37004386802c0931f6ebaa47~mv2.jpg/v1/fit/w_1600,h_900,q_80/329158_394e0dca37004386802c0931f6ebaa47~mv2.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0b0b0c;--fg:#f2f0ec;--mut:#8d8b86;--line:#222225;--acc:#e8ff5a;--r:14px}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;background:var(--bg)}
+body{font-family:Inter,system-ui,sans-serif;color:var(--fg);background:var(--bg);line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+header{position:fixed;inset:0 0 auto;z-index:20;display:flex;align-items:center;gap:28px;padding:16px 4vw;background:linear-gradient(#0b0b0cee,#0b0b0c00);backdrop-filter:blur(8px)}
+.logo{font:800 1.2rem Syne,sans-serif;letter-spacing:.02em;white-space:nowrap}
+.logo b{color:var(--acc)}
+nav{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;margin-left:auto}
+nav::-webkit-scrollbar{display:none}
+nav a{padding:6px 13px;border-radius:99px;font-size:.85rem;color:var(--mut);white-space:nowrap;transition:.2s}
+nav a:hover{color:var(--fg)}
+nav a.on{background:var(--fg);color:var(--bg)}
+.hero{position:relative;height:100svh;min-height:560px;display:flex;align-items:flex-end;padding:0 4vw 9vh;background:#000 center/cover}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,#0b0b0c55,#0b0b0c 96%)}
+.hero>div{position:relative;z-index:1;max-width:900px}
+.eyebrow{font-size:.8rem;letter-spacing:.2em;text-transform:uppercase;color:var(--acc)}
+h1{font:800 clamp(2.6rem,8vw,6.4rem)/.98 Syne,sans-serif;margin:14px 0 22px;letter-spacing:-.02em}
+.lead{color:#cfccc6;max-width:560px;font-weight:300;font-size:1.1rem}
+.btns{display:flex;gap:12px;margin-top:28px;flex-wrap:wrap}
+.btn{padding:12px 24px;border-radius:99px;border:1px solid #ffffff44;font-size:.9rem;cursor:pointer;background:none;color:var(--fg);font-family:inherit;transition:.2s}
+.btn.p{background:var(--acc);color:#111;border-color:var(--acc);font-weight:500}
+.btn:hover{transform:translateY(-2px)}
+section{padding:90px 4vw}
+h2{font:700 clamp(1.8rem,4vw,2.8rem) Syne,sans-serif;margin-bottom:12px;letter-spacing:-.01em}
+.sub{color:var(--mut);max-width:620px;margin-bottom:38px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:18px}
+.card{position:relative;aspect-ratio:4/5;border-radius:var(--r);overflow:hidden;background:#151517}
+.card img{width:100%;height:100%;object-fit:cover;transition:transform .7s}
+.card:hover img{transform:scale(1.06)}
+.card::after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 45%,#000000cc)}
+.card span{position:absolute;left:20px;bottom:18px;z-index:1;font:700 1.3rem Syne,sans-serif}
+.card small{position:absolute;right:18px;bottom:22px;z-index:1;color:var(--acc);font-size:1.1rem;transition:.3s}
+.card:hover small{transform:translateX(4px)}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:5vw;align-items:center;border-top:1px solid var(--line)}
+.about img{border-radius:var(--r);aspect-ratio:5/4;object-fit:cover;width:100%}
+.about p{color:#cfccc6;font-weight:300;margin-bottom:16px}
+.page{padding-top:120px;min-height:100vh}
+.page h1{font-size:clamp(2.2rem,6vw,4.4rem);margin:8px 0 10px}
+.vids{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px;margin:40px 0 56px}
+.vid{position:relative;aspect-ratio:16/9;border-radius:var(--r);overflow:hidden;cursor:pointer;background:#151517;border:0;padding:0;color:var(--fg);text-align:left}
+.vid img{width:100%;height:100%;object-fit:cover;transition:.5s}
+.vid:hover img{transform:scale(1.05)}
+.vid::after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 40%,#000000d0)}
+.vid i{position:absolute;z-index:1;top:50%;left:50%;width:58px;height:58px;margin:-29px;border-radius:50%;background:#ffffffee;display:grid;place-items:center}
+.vid i::before{content:"";border-left:16px solid #111;border-block:10px solid transparent;margin-left:4px}
+.vid b{position:absolute;z-index:1;left:16px;right:16px;bottom:14px;font-weight:500;font-size:.9rem;line-height:1.35}
+.mas{columns:3 280px;column-gap:14px}
+.mas button{display:block;width:100%;margin-bottom:14px;border:0;padding:0;border-radius:10px;overflow:hidden;cursor:zoom-in;background:#151517;break-inside:avoid}
+.mas img{width:100%;height:auto;transition:.5s;opacity:0}
+.mas img.ok{opacity:1}
+.mas button:hover img{transform:scale(1.03);filter:brightness(1.08)}
+.empty{border:1px dashed #333;border-radius:var(--r);padding:60px 24px;text-align:center;color:var(--mut)}
+.lb{position:fixed;inset:0;z-index:50;background:#000000ee;display:none;place-items:center;padding:4vh 4vw}
+.lb.on{display:grid}
+.lb img{max-height:90vh;max-width:92vw;object-fit:contain;border-radius:6px}
+.lb .fr{width:min(92vw,1100px);aspect-ratio:16/9}
+.lb iframe{width:100%;height:100%;border:0;border-radius:8px}
+.lb button{position:absolute;background:#ffffff18;border:0;color:#fff;width:46px;height:46px;border-radius:50%;font-size:1.3rem;cursor:pointer}
+.lb button:hover{background:#ffffff33}
+.x{top:18px;right:18px}.pv{left:18px;top:50%}.nx{right:18px;top:50%}
+.contact{border-top:1px solid var(--line);text-align:center}
+.contact .btns{justify-content:center}
+.contact .sub{margin-inline:auto}
+footer{padding:28px 4vw;border-top:1px solid var(--line);color:var(--mut);font-size:.8rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+@media(max-width:800px){.about{grid-template-columns:1fr}header{gap:12px}.logo{font-size:1rem}.pv,.nx{top:auto;bottom:18px}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header>
+  <a class="logo" href="#/">DAVID<b>RJ</b></a>
+  <nav id="nav"></nav>
+</header>
+<main id="app"></main>
+<footer>
+  <span>© <span id="yr"></span> David RJ · London</span>
+  <span><a href="https://www.instagram.com/davidrinconj10/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.youtube.com/channel/UCyOevYBHDdoi2FLiE5RwL5Q" target="_blank" rel="noopener">YouTube</a></span>
+</footer>
+<div class="lb" id="lb" role="dialog" aria-modal="true">
+  <button class="x" id="lx" aria-label="Close">✕</button>
+  <button class="pv" id="lp" aria-label="Previous">←</button>
+  <div id="lc"></div>
+  <button class="nx" id="ln" aria-label="Next">→</button>
+</div>
+
+<script>
+/* ============ EDIT YOUR CONTENT HERE ============ */
+const EMAIL = "";                       // add your email to show a "Get in touch" button
+const HERO  = "394e0dca37004386802c0931f6ebaa47";
+const SHOWREEL = "497007211";           // Vimeo ID
+const SOCIAL = {ig:"https://www.instagram.com/davidrinconj10/", yt:"https://www.youtube.com/channel/UCyOevYBHDdoi2FLiE5RwL5Q"};
+
+// Photo IDs are Wix file names without the "329158_" prefix and "~mv2.jpg" ending.
+// If a file has a different ending, write the full name (with "~"), e.g. "abc~mv2_d_100_100_s_4_2.jpg"
+const CATS = [
+ {k:"weddings",t:"Weddings",d:"Wedding photography and films that tell the whole story of the day.",cover:"4c7ab0fcf2a54f5189a49470b7705637",
+  photos:["4c7ab0fcf2a54f5189a49470b7705637","e3b0f5856f3341c5ad26fc03b5e25e90","18afed84043a4a2ba4982e6522631b83","b763e59d5cc9475dbbd4017082619fb4","29d17a48c97249aea02bbd80cb109c24","9162ac10650b483da8cb2d21aa8afbc1","c4a8ef6ab6f44b0cbb12fda20e64a354","ad41c1accacb4b6f97e4ac165cce4c6d","be3d5446e75c47dcabcea7b25fc3c196","f0e3316da307447ea89f9ca515650ec6","b097ddcdeb7f4d738ddfb97b6e2db382","d4d79a36f1de4c5ab633642b2878e909","4d1f5427efba431e9121bcc0da7cd311","45d2b9fe2c3f486f94c08ec8a1f2987a","6272fe09fb3b41fb8ffafa195fcc237e","34f48532056d45d2b06a278a9ded02c8"],
+  videos:[]},
+ {k:"products",t:"Products",d:"Product photography and videos that make brands look their best.",cover:"4c3ca15867af41119f948f90df66cfd4",
+  photos:["4c3ca15867af41119f948f90df66cfd4","81e64ae3e4fb481bb420bf83f690c0ea","8ce5250f75d64bf39767d114cb24a29c","515d94356f104df4b74de69ded83c149","7080200b60334252922afe3b802c6291","dee01630e97f43b1937bab9d9ada0d35","0484e4e72c924428a926343394d679a8","97f63eedd29145d09ccba182bb68a3fe","71802f0539dd4ee79f871846a41a71df","96c37373720849c8bd022bdd5d5f51eb","58aeb25aa2d24ca090926060304a81bb","668a565ea2a6418eaaec0386fd440b82","517b913fc2b846a1b87e4ba235136dc5","05ea530d044342ab8b4bf22bb6b9e7a8"],
+  videos:[]},
+ {k:"food-drinks",t:"Food & Drinks",d:"Food and drinks photography, videography and content.",cover:"",photos:[],videos:[]},
+ {k:"automotive",t:"Automotive",d:"Car photography and commercial films, from hypercars to EVs.",cover:"7f488b333a934605a7492d1c28977034",
+  photos:["7f488b333a934605a7492d1c28977034","1a61060157d24866af99ad278d27f778","bb5d3fd8d709406d93f7393ccd8e23c7","666990b9d6394e5293cee89c1a486a1b","2303d4a68e7b486c860b4b028de64e47","a7f29a9192284745b5072be06fd2d631","596a45982a4a443fb3bc45bfcb69afaf","88d363613eb84f84ba0833bbfe4e3426","7262d4baa13748f49a819412442c210e","76a398b02be144908cc0360cf47c3817","ce917fdabe8b40c69256c3b6e31e6ac2","28f15be3854e4d8082be883d34eb57ed","a9025d1276a94b82a8b23057f64683d1","a38f5e8ed3df4bebb072b2bc001ca5f2"],
+  videos:[{y:"e0q3S3H50yg",t:"Porsche 992 GT3 RS vs GT4 RS — Which is the better road car?"},{y:"roqAr2-6UtA",t:"Porsche 992 Sport Classic — worth £50,000 more than a 992 Turbo S?"},{y:"G7wF-4ubv0M",t:"Ferrari 296 GTB vs SF90"},{y:"3E3CbnR2dgY",t:"Electric cars video commercial — Taycan & E-Tron"}]},
+ {k:"corporate-events",t:"Corporate & Events",d:"Event coverage, interviews and promotional content.",cover:"e2fc9e7fb6574179a98f3814b570fdbc",
+  photos:["e2fc9e7fb6574179a98f3814b570fdbc","c8d890d02d0a478392270dae86de6229","1a353b8f0f55454da6446505b84bb4f7","d33e54433d9a4772bea99461910f77a4","b860022a858e42c28b5dffc22a8c24e0","540820a4aa47413eae8ed3d1d538fd88","2d2998c072554ad8b16ae327ce56edbd","a18062ae6e5d44d6ae9687be3c63b508","0f0a72cb8bb84e99bd8d70662923d670","60a5c7d4080f4aea92a8299822934f7f","013563fd699e4f0da56cfd0542173601","ecd313146b9f4d8ebf46c0c0d7f1caf3","cac02f07cdd24335963c050bc451f783","a1a34d9677d2405ca1895f44c24b40e5"],
+  videos:[]},
+ {k:"portraits",t:"Portraits",d:"Fashion, lifestyle and people portraits.",cover:"1ca474a8048e4bd590dae303bb014bf4",
+  photos:["1ca474a8048e4bd590dae303bb014bf4","f5b3e69bd02f42e895116ca9f689c94e","2deed34224c340188cef9acfafba2780","bc02e032416e43419971cee7a9281641","eb11e6abc8c4494893848dbc24f17b66","62129b6ae04744399d5d46d81ef2bdf7","6e9f3bcdae86492693782f9a3120ce09","ef66a89151274465a09c216b60ea7256","d6e9ac7645764eab8e292c17d2c14366","c9f72fba419542f0804dde8031b83e7f","6961da5db24b47008c9380966511ab78","13f6e573e3ae4b6f92364d573601a580","b6440e9416dd490885f54779a749012e","6635846ad4814614acf7cfdf7484d310"],
+  videos:[]},
+ {k:"fitness",t:"Fitness",d:"Fitness photography and videography.",cover:"85ae00dfb6eb439fbc5a67e0ef94eca9",
+  photos:["85ae00dfb6eb439fbc5a67e0ef94eca9","222490276bf54fb58d58329e2c8b9f3d","d01f4602ef4949d59e131d2abe4d88a8","735fba7d4e384e07b361420cb69af6b8","abb200ec45f94b629173ef749645e2a1","59d4cd22c9db4e02a34fb0e737d0e6c8","7fa413dfe7de428a881d66830d60c35d","27bb8fc0c62d42ceb18e475969113dcf","8517a7de366a47b585a07c1699dea199","8864b569420b4f30bab1f9126ff52ba7","74baa5036922451abd5222fef1277dec","858bb99973184447a231e0a5ae27ca6d","46d52230f366427fa35f3127fb2d3c8a","cc4dce38668c4b6b82da1ac4c91b2e4d"],
+  videos:[]},
+ {k:"architecture-landscape",t:"Architecture & Landscape",d:"Architecture, real estate and landscape photography.",cover:"6f891b781fa7472a992388590129eb49",
+  photos:["6f891b781fa7472a992388590129eb49","9b6149a9d56c40a084b4416a3636fcba","8fca042476cd4860b1cf33674c94614b","808d23b890c444c4a987b846a2db0946","1f21aedb169143d1924f38c162c132cd","dde2e80831714cb1a2eafea4c26caee3","5d147b1007964bf8905f3f6b30b30137","52acfbfe7b61493c9ea74a504b2d279b","2fe576008ffc460f803ee2b59249bda9","0aae9a09778f45f68bfc6f5a5004d4d8","2a42cf4498bd4e408b453803aeb0f6eb","b4c3d54167424c03a0eaffbfec73db0f","0949e0b296ad4e328f79036f6c842950","8237ac204710483e9d49250e9c953e0f"],
+  videos:[]},
+ {k:"aerial",t:"Aerial",d:"Drone photography and videography.",cover:"711506abe4fa41acba742da14982f28b",
+  photos:["711506abe4fa41acba742da14982f28b","250ae7213d24477184e1d7e0b0879a09","9c181f27c1944eefb3cde1482679c896","6084972fe8924e86ae17d0c6b1114468","4c655d6ffbe14a5ea8e1629ad738f347","d8da3d8467854536b7530fcb04504041","d68871c9fdf94460bd19bc8d342a429f","92a3e7fc6bc0409d9a68cd3a4addce60","7db428521b734ce4b8f3c5c01e19fc97~mv2_d_3992_2992_s_4_2.jpg","b9b96e57675b4d44a51211eff6ed60b6~mv2_d_3992_2990_s_4_2.jpg"],
+  videos:[]}
+];
+/* ================================================ */
+
+const $=s=>document.querySelector(s), app=$("#app");
+const img=(id,w)=>{const f="329158_"+(id.includes("~")?id:id+"~mv2.jpg");return `https://static.wixstatic.com/media/${f}/v1/fit/w_${w},h_${w},q_80/${f}`};
+const yt=id=>`https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0`;
+const esc=s=>s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+$("#yr").textContent=new Date().getFullYear();
+$("#nav").innerHTML=`<a href="#/">Home</a>`+CATS.map(c=>`<a href="#/${c.k}" data-k="${c.k}">${c.t}</a>`).join("");
+
+const contact=()=>`<section class="contact" id="contact"><h2>Let's make something</h2><p class="sub">Tell me your story or idea and I'll turn it into a video or photo — with full agency support and a team behind the project if you need it.</p><div class="btns">${EMAIL?`<a class="btn p" href="mailto:${EMAIL}">Get in touch</a>`:""}<a class="btn ${EMAIL?"":"p"}" href="${SOCIAL.ig}" target="_blank" rel="noopener">Instagram</a><a class="btn" href="${SOCIAL.yt}" target="_blank" rel="noopener">YouTube</a></div></section>`;
+
+function home(){
+  app.innerHTML=`
+  <div class="hero" style="background-image:url('${img(HERO,1600)}')"><div>
+    <div class="eyebrow">London · Photography · Videography</div>
+    <h1>Hi, I'm David.<br>Content creator.</h1>
+    <p class="lead">Photography, videography and editing — from the first idea to the final cut.</p>
+    <div class="btns"><a class="btn p" href="#work">View work</a><button class="btn" id="reel">▶ Showreel</button></div>
+  </div></div>
+  <section id="work"><h2>Selected work</h2><p class="sub">Browse by category.</p>
+    <div class="cards">${CATS.map(c=>`<a class="card" href="#/${c.k}">${c.cover?`<img loading="lazy" src="${img(c.cover,700)}" alt="${esc(c.t)}">`:""}<span>${c.t}</span><small>↗</small></a>`).join("")}</div></section>
+  <section class="about"><img loading="lazy" src="https://static.wixstatic.com/media/329158_86e60f669c55420da6c02b14f56ef6eb~mv2_d_4782_3826_s_4_2.jpg/v1/fit/w_1000,h_1000,q_80/329158_86e60f669c55420da6c02b14f56ef6eb~mv2_d_4782_3826_s_4_2.jpg" alt="David RJ">
+    <div><h2>Content creator based in London</h2><p>Whether you need photography, videography or editing, I'll help you from the start to the end of your project to create the result you're after.</p><p><b style="color:var(--fg);font-weight:500">Full agency support.</b> Need to take things further? David works with a highly qualified team covering every aspect of your project.</p></div></section>
+  ${contact()}`;
+  $("#reel").onclick=()=>openVid(`https://player.vimeo.com/video/${SHOWREEL}?autoplay=1`);
+}
+
+let items=[],idx=0;
+function cat(k){
+  const c=CATS.find(x=>x.k===k); if(!c) return home();
+  items=c.photos;
+  app.innerHTML=`<div class="page"><section style="padding-top:0">
+    <div class="eyebrow">Portfolio</div><h1>${c.t}</h1><p class="sub">${c.d}</p>
+    ${c.videos.length?`<div class="vids">${c.videos.map(v=>`<button class="vid" data-y="${v.y}"><img loading="lazy" src="https://i.ytimg.com/vi/${v.y}/maxresdefault.jpg" alt=""><i></i><b>${esc(v.t)}</b></button>`).join("")}</div>`:""}
+    ${c.photos.length?`<div class="mas">${c.photos.map((p,i)=>`<button data-i="${i}" aria-label="Open photo ${i+1}"><img loading="lazy" src="${img(p,800)}" alt="${esc(c.t)} photo ${i+1}" onload="this.classList.add('ok')"></button>`).join("")}</div>`:`<div class="empty">New work coming soon.</div>`}
+  </section>${contact()}</div>`;
+  app.querySelectorAll(".vid").forEach(b=>b.onclick=()=>openVid(yt(b.dataset.y)));
+  app.querySelectorAll(".mas button").forEach(b=>b.onclick=()=>openImg(+b.dataset.i));
+}
+
+const lb=$("#lb"),lc=$("#lc");
+function openVid(src){lc.innerHTML=`<div class="fr"><iframe src="${src}" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>`;$("#lp").style.display=$("#ln").style.display="none";lb.classList.add("on")}
+function showImg(){lc.innerHTML=`<img src="${img(items[idx],2000)}" alt="">`}
+function openImg(i){idx=i;showImg();$("#lp").style.display=$("#ln").style.display="";lb.classList.add("on")}
+function step(d){idx=(idx+d+items.length)%items.length;showImg()}
+function closeLb(){lb.classList.remove("on");lc.innerHTML=""}
+$("#lx").onclick=closeLb;$("#lp").onclick=()=>step(-1);$("#ln").onclick=()=>step(1);
+lb.onclick=e=>{if(e.target===lb)closeLb()};
+addEventListener("keydown",e=>{if(!lb.classList.contains("on"))return;if(e.key==="Escape")closeLb();if(e.key==="ArrowLeft"&&$("#lp").style.display!=="none")step(-1);if(e.key==="ArrowRight"&&$("#ln").style.display!=="none")step(1)});
+
+function route(){
+  const h=location.hash.replace(/^#\/?/,"");
+  if(h==="work"||h==="contact"){ if(!$(".hero")) home(); document.getElementById(h)?.scrollIntoView(); return mark("");}
+  h?cat(h):home(); mark(h); scrollTo(0,0);
+  const c=CATS.find(x=>x.k===h); document.title=(c?c.t+" — ":"")+"David RJ — Photographer & Videographer, London";
+}
+function mark(k){document.querySelectorAll("#nav a").forEach(a=>a.classList.toggle("on",(a.dataset.k||"")===k))}
+addEventListener("hashchange",route);route();
+</script>
+</body>
+</html>
