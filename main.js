@@ -1,0 +1,1 @@
+const lb=document.getElementById('lb');document.querySelectorAll('.grid img').forEach(i=>i.onclick=()=>{lb.firstChild.src=i.dataset.full;lb.style.display='flex'});lb.onclick=()=>lb.style.display='none';addEventListener('keydown',e=>e.key=='Escape'&&(lb.style.display='none'))
